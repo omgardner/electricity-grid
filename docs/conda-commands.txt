@@ -1,0 +1,3 @@
+conda activate spatial-venv
+conda list --explicit > spec-file.txt
+conda create --name spatial-venv --file spec-file.txt

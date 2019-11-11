@@ -1,0 +1,2 @@
+conda list --explicit > spec-file.txt
+conda activate spatial-venv
